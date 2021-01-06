@@ -24,7 +24,7 @@ nz = [0:length(z)-1];
 
 %Descomentar para graficar señales originales
 %Al descomentar esta seccion, comentar las demas secciones de subplots
-%{
+
 %--------------------------------------------------------------------------
 subplot(2,1,1);
     hold on
@@ -46,9 +46,9 @@ subplot(2,1,2);
     grid on
     hold off
 %--------------------------------------------------------------------------
-%}
 
 
+%{
 %Descomentar para graficar convoluciones
 %Al descomentar esta seccion, comentar las secciones de subplots arriba
 %-------------------------------------------------------------------------
@@ -143,3 +143,4 @@ subplot(4,2,8);
     grid on
     hold off
 %--------------------------------------------------------------------------
+%}
